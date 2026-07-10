@@ -15,32 +15,27 @@ CHECKLIST FOR THIS PAGE:
 
 ## Journal Articles
 
-1. [YOUR NAME], [CO-AUTHOR NAME], and [CO-AUTHOR NAME] ([YEAR]). "[Your paper title here]." *[Journal Name]*, [Volume] [Issue], [Page range]. [DOI link or URL]
-
-2. [YOUR NAME] and [CO-AUTHOR NAME] ([YEAR]). "[Your paper title here]." *[Journal Name]*, [Volume] [Issue], [Page range]. [DOI link or URL]
-
-3. [YOUR NAME] ([YEAR]). "[Your paper title here]." *[Journal Name]*, [Volume] [Issue], [Page range]. [DOI link or URL]
+1. Dhyey Bhatpuria, Nitin Sharma, Giriraj Amarnath, Alok Sikka (2024). "Patterns of Surface Water Dynamics and Storage Changes in Bundelkhand Region, India." *Journal of Irrigation and Drainage*. [DOI](https://doi.org/10.1002/ird.3055)
 
 ---
 
 ## Conference Papers & Presentations
 
-1. [YOUR NAME] and [CO-AUTHOR NAME] ([YEAR]). "[Your presentation title]." *[Conference Name]*, [City, Country].
-
-2. [YOUR NAME] ([YEAR]). "[Your presentation title]." *[Conference Name]*, [City, Country].
-
----
-
-## Theses
-
-- [YOUR NAME] ([YEAR]). *[Your thesis title]*. [Degree type] thesis. [University Name].
+1. Dhyey Bhatpuria, Giriraj Amarnath, Nitin Sharma, Matthew McCartney, Alok Kumar Sikka (2024). "Mapping Surface Water in Un-monitored Small Waterbodies Using Earth Observation Data." *AGU Hydrology 2024*. [Abstract link](https://ui.adsabs.harvard.edu/abs/2024wsc..conf21192B/abstract)
 
 ---
 
 ## Reports & Technical Documents
 
-- [YOUR NAME] et al. ([YEAR]). *[Report title]*. [Organization Name]. [URL or DOI if available]
+1. Giriraj Amarnath, V Sahana, KV Rao, Dhyey Bhatpuria, Nitin Sharma, SK Jena, Alok Sikka (2025) *Building Resilient River Basins with the Catchment Risk and Resilience (CRI) Index*. CGIAR. [Re](https://hdl.handle.net/10568/181187)
+
 
 ---
 
-*For citation counts and a full list, see [Google Scholar](https://scholar.google.com) or [ResearchGate](https://www.researchgate.net).*
+## Blogs
+
+1. Dhyey Bhatpuria, Nitin Sharma, Giriraj Amarnath and Alok Sikka (2023) *Effect of Rainfall Deficit on Surface Water Storage Changes*. CGIAR [Article](https://www.cgiar.org/news-events/news/effect-of-rainfall-deficit-on-surface-water-storage-changes#:~:text=Satellite%2Dbased%20precipitation%20data%20indicate,the%20severity%20of%20the%20situation.) — StoryMap [StoryMap](https://storymaps.arcgis.com/stories/4673926985b74fd58dc70b1794a3fe1a) 
+
+---
+
+*For citation counts and a full list, see [Google Scholar](https://scholar.google.com/citations?hl=en&user=C50i0J0AAAAJ&scilu=&scisig=AKLELW8AAAAAalDaoWYqpZu6I4AzrDk0XU6YZL4)

@@ -19,23 +19,40 @@ CHECKLIST FOR THIS PAGE:
 
 <div class="timeline-entry" markdown>
 
-### [YOUR JOB TITLE] — [YOUR COMPANY / ORGANIZATION]
-*[Month Year] – [Month Year or Present] | [City, Country]*
+### Young Professional — School of Public Policy, IIT Delhi
+*Feb 2025 – Present | Delhi, India*
 
-- [Describe your main responsibility or achievement in one sentence]
-- [Describe another key task, project, or result]
-- [Describe a tool, method, or skill you applied regularly]
+- Synthesized Earth observation, survey and hydrological datasets to evaluate equity, efficiency and sustainability of irrigation water use in collaboration with IHE Delft
+- Contributed to a decision support system and coordinated interdisciplinary teams developing a system dynamics model for Varuna River rejuvenation under the National Mission for Clean Ganga
 
 </div>
 
 <div class="timeline-entry" markdown>
 
-### [YOUR PREVIOUS JOB TITLE] — [YOUR PREVIOUS COMPANY]
-*[Month Year] – [Month Year] | [City, Country]*
+### Research Consultant — International Water Management Institute (IWMI)
+*Jan 2024 – Dec 2024 | Delhi, India*
 
-- [Describe your main responsibility or achievement in one sentence]
-- [Describe another key task, project, or result]
-- [Describe a tool, method, or skill you applied regularly]
+- Evaluated Direct Seeded Rice adoption in Haryana using satellite imagery, field surveys and machine learning in Google Earth Engine
+- Developed reproducible Earth observation pipelines for drought monitoring in Africa and automated flood inundation mapping supporting the International Disaster Charter
+
+</div>
+
+<div class="timeline-entry" markdown>
+
+### Research Intern — International Water Management Institute (IWMI)
+*Jun 2023 – Dec 2023 | Delhi, India*
+
+- Developed a Google Earth Engine workflow for monitoring surface water dynamics using Landsat and Sentinel imagery
+- Delivered tools to the Central Water Commission and conducted GEE training workshops
+
+</div>
+
+<div class="timeline-entry" markdown>
+
+### Research Intern — Arizona State University
+*Jun 2023 – Aug 2023 | Remote*
+
+- Developed a machine learning workflow for mapping Animal Feeding Operations to support watershed nutrient runoff and environmental policy analyses
 
 </div>
 
@@ -45,22 +62,29 @@ CHECKLIST FOR THIS PAGE:
 
 ## Education
 
-### [YOUR DEGREE] in [YOUR FIELD]
-**[YOUR UNIVERSITY]** | *[Year of Graduation]*
+### M.Sc. in Geology
+**Indian Institute of Technology Kharagpur** | *2023*
 
-[Optional: one sentence about your thesis, specialization, or coursework if relevant]
+GPA: 8.95/10
 
 ---
 
-### [YOUR PREVIOUS DEGREE] in [YOUR FIELD]
-**[YOUR UNIVERSITY]** | *[Year of Graduation]*
+### P.G. Diploma in Environmental Law and Policy
+**National Law University & World Wide Forum India** | *2023*
+
+Grade A
+
+---
+
+### B.Sc. (Hons.) in Geology
+**Hansraj College, University of Delhi** | *2021*
+
+GPA: 8.65/10
 
 ---
 
 ## Certifications
 
-- [Certification Name] — [Issuing Organization], [Year]
-- [Certification Name] — [Issuing Organization], [Year]
-- [Certification Name] — [Issuing Organization], [Year]
+- Spatial data science — ESRI MOOC, 2022
+- Python for data science (pandas, numpy, matplotlib, and scipy) — NPTEL, 2020
 
-*Examples: QGIS Certification, PMP Certification, AWS Certified Cloud Practitioner*
