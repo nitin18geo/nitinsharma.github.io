@@ -112,3 +112,44 @@
   border-radius: 4px;
   margin-bottom: 0.75rem;
 }
+
+/* ---- Light mode (scheme: default) ---- */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #A98D6C;  /* muted beige/taupe for header + nav */
+  --md-primary-fg-color--light: #C9B393;
+  --md-primary-fg-color--dark:  #8A7255;
+  --md-primary-bg-color:        #FBF7F0;  /* off-white text on header */
+  --md-accent-fg-color:         #C7A17A;  /* soft pastel tan for links/highlights */
+ 
+  --md-default-bg-color:        #FAF6EF;  /* warm beige page background */
+  --md-default-fg-color:        #3E3A34;  /* soft dark brown body text */
+  --md-default-fg-color--light: #6B655C;
+  --md-default-fg-color--lighter: #A39C90;
+ 
+  --md-typeset-a-color:         #A8783F;  /* pastel amber-brown links */
+  --md-code-bg-color:           #F1EAE0;  /* light beige code block background */
+  --md-code-fg-color:           #4A4238;
+}
+ 
+/* ---- Dark mode (scheme: slate) ---- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #6E5A45;  /* deeper warm beige/brown header */
+  --md-primary-fg-color--light: #8A7255;
+  --md-primary-fg-color--dark:  #564733;
+  --md-accent-fg-color:         #D8BE9A;  /* pastel highlight for dark mode */
+ 
+  --md-default-bg-color:        #2A2622;  /* warm charcoal-beige background */
+  --md-default-fg-color:        #EDE6DA;
+  --md-default-fg-color--light: #C9C0B2;
+  --md-default-fg-color--lighter: #948C7E;
+ 
+  --md-typeset-a-color:         #D8BE9A;
+  --md-code-bg-color:           #35302A;
+  --md-code-fg-color:           #EDE6DA;
+}
+ 
+/* Soften card / admonition borders to match the pastel palette */
+.md-typeset .admonition,
+.md-typeset details {
+  border-color: #C9B393;
+}

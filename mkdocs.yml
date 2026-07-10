@@ -7,9 +7,9 @@
 # Edit all lines marked [YOUR ...] to customize your site
 # ============================================================
 
-site_name: "[YOUR NAME] - Geospatial Portfolio"
-site_description: "Portfolio of [YOUR NAME] — GIS, Remote Sensing, and Spatial Data Science"
-site_author: "[YOUR NAME]"
+site_name: "Nitin Sharma - Portfolio"
+site_description: "Portfolio of Nitin Sharma — GIS, Remote Sensing, and Spatial Data Science"
+site_author: "Nitin Sharma"
 # After your site is live, uncomment and set this to your actual GitHub Pages URL:
 #site_url: "https://your-username.github.io/your-repo-name"
 
@@ -26,14 +26,14 @@ theme:
     # Available colors: red, pink, purple, deep purple, indigo, blue, light blue,
     # cyan, teal, green, light green, lime, yellow, amber, orange, deep orange
     - scheme: default            # Light mode
-      primary: indigo
-      accent: blue
+      primary: brown
+      accent: brown
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate              # Dark mode
-      primary: indigo
-      accent: blue
+      primary: brown
+      accent: brown
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -59,16 +59,16 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-copyright: "Copyright &copy; [YOUR NAME]"
+copyright: "Copyright &copy; Nitin Sharma"
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/[YOUR-GITHUB-USERNAME]
+      link: https://github.com/nitin18geo
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]
+      link: https://linkedin.com/in/nitingeology
     - icon: material/email
-      link: mailto:[YOUR-EMAIL-ADDRESS]
+      link: mailto:nitin18geo@gmail.com
 
 
 plugins:
