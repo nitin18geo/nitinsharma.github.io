@@ -26,14 +26,14 @@ theme:
     # Available colors: red, pink, purple, deep purple, indigo, blue, light blue,
     # cyan, teal, green, light green, lime, yellow, amber, orange, deep orange
     - scheme: default            # Light mode
-      primary: brown
-      accent: brown
+      primary: grey
+      accent: grey
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate              # Dark mode
-      primary: brown
-      accent: brown
+      primary: grey
+      accent: grey
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -78,10 +78,3 @@ plugins:
 
 nav:
   - Home: index.md
-  - Projects:
-    - "All Projects": projects/index.md
-    - "StoryMaps: ESRI India Contest Winner": projects/StoryMaps_contest.md
-    - "Digitization of Phosphorous Pollutant Sources": projects/ASU_Internship.md
-  - Publications: publications.md
-  - Experience: experience.md
-  - Contact: contact.md

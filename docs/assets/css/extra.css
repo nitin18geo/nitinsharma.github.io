@@ -1,19 +1,102 @@
-/* Profile photo on the Home page */
-.profile-photo {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto 0.75rem auto;
+/* Fully hide MkDocs Material's built-in header (title bar, search, dark mode toggle)
+   and the tabs row beneath it, so custom content starts flush at the top of the page */
+.md-header,
+.md-tabs {
+  display: none !important;
+}
+
+:root {
+  --md-header-height: 0px;
+}
+
+.md-main__inner {
+  margin-top: 0 !important;
+}
+
+/* Sticky custom top bar: Name, role/tagline, and Projects/Skills/Contact nav */
+.site-topbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+
+    background: #E3E3E3;
+    border-bottom: 1px solid #CFCFCF;
+
+    padding: 1rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .45rem;
+
+    text-align: center;
+}
+
+.site-topbar-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--md-default-fg-color);
+}
+
+.site-topbar-tagline {
+  font-size: 1rem;
+  color: var(--md-default-fg-color--light);
+  font-style: italic;
+}
+
+.site-topbar .home-nav {
+  margin-top: 0.4rem;
 }
 
 /* Hero section on the Home page */
 .hero {
-  text-align: center;
-  padding: 1rem 1rem 1.25rem 1rem;
-  background: linear-gradient(135deg, #e8f4f8 0%, #f0f7ff 50%, #e8f0fe 100%);
-  border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0 0rem;
+    background: transparent;
+}
+
+/* Profile photo on the Home page */
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+  border: 6px solid #dceffa;
+  background: #ffffff;
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.10),
+    0 0 0 1px rgba(0, 0, 0, 0.06);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow:
+    0 16px 36px rgba(0, 0, 0, 0.16),
+    0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 2rem 0 1.5rem;
+  }
+
+  .profile-photo {
+    width: 140px;
+    height: 140px;
+  }
 }
 
 .hero h1 {
@@ -28,6 +111,37 @@
 
 .hero + hr {
   margin-top: 0.5rem;
+}
+
+/* In-page nav bar (Projects / Skills / Contact) inside the hero,
+   built as plain anchor links since mkdocs.yml's nav: config can't
+   route to page anchors (index.md#section is left as a broken raw link) */
+.home-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.home-nav a {
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  text-decoration: none;
+  padding-bottom: 0.15rem;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.home-nav a:hover {
+  color: var(--md-accent-fg-color);
+  border-bottom-color: var(--md-accent-fg-color);
+}
+
+/* Anchor targets: offset so headings don't land underneath the sticky header */
+h2[id] {
+  scroll-margin-top: 4.5rem;
 }
 
 /* About Me section on the Home page */
@@ -60,6 +174,15 @@
   }
 }
 
+/* Full-width about image (single-column homepage layout) */
+.about-image-full {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 1.25rem auto 0 auto;
+  border-radius: 8px;
+}
+
 /* Timeline on the Experience page */
 .timeline {
   padding-left: 1.75rem;
@@ -87,69 +210,270 @@
   margin-top: 0;
 }
 
-/* Skills grid cards on the Home page */
-.md-typeset .grid.cards > ul > li {
-  background-color: #f0f7ff;
+/* ---------------------------------------------------------- */
+/* Projects grid — 3 columns, taller cards, dynamic hover      */
+/* ---------------------------------------------------------- */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
-/* Project cards on the Projects gallery page */
+@media (max-width: 960px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .project-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 420px;
   border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 8px;
-  padding: 1rem;
-  background-color: #f0f7ff;
-  transition: box-shadow 0.2s;
+  border-radius: 10px;
+  padding: 1.1rem;
+  background-color: #FAFAFA;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .project-card:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+  border-color: var(--md-accent-fg-color);
 }
 
 .project-card img {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 6px;
   margin-bottom: 0.75rem;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.04);
+}
+
+/* Push the "View Project" button toward the bottom so cards align */
+.project-card .md-button {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+/* ---------------------------------------------------------- */
+/* Skills grid — neat square boxes                             */
+/* ---------------------------------------------------------- */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+
+    margin: 2rem 0;
+}
+
+.skill-card {
+    background: #EEF1F3;
+    border-radius: 16px;
+    padding: 1.4rem;
+    box-shadow: 0 4px 18px rgba(0,0,0,.05);
+    transition: .25s;
+    min-height: 210px;
+}
+
+.skill-card strong {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #32475B;
+    margin: 0.5rem 0;
+}
+
+.skill-card strong::after {
+    content: "";
+
+    display: block;
+
+    width: 100%;
+
+    height: 3px;
+
+    background: #39C37D;
+
+    margin-top: .8rem;
+}
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0.35rem 0;
+}
+
+.skill-item p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.skill-item .twemoji {
+    width: 1.2rem;
+    height: 1.2rem;
+    flex-shrink: 0;
+}
+.skill-card p {
+    margin: 0.35rem 0 !important;
+    line-height: 1.4;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.skill-card .twemoji {
+    width: 1.25rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+    color: #4A4A4A;
+}
+
+
+@media (max-width:900px){
+
+.skills-grid{
+grid-template-columns:1fr;
+}
+
 }
 
 /* ---- Light mode (scheme: default) ---- */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color:        #A98D6C;  /* muted beige/taupe for header + nav */
-  --md-primary-fg-color--light: #C9B393;
-  --md-primary-fg-color--dark:  #8A7255;
-  --md-primary-bg-color:        #FBF7F0;  /* off-white text on header */
-  --md-accent-fg-color:         #C7A17A;  /* soft pastel tan for links/highlights */
+  --md-primary-fg-color:        #4A4A4A;  /* neutral dark grey for header + nav */
+  --md-primary-fg-color--light: #757575;
+  --md-primary-fg-color--dark:  #2E2E2E;
+  --md-primary-bg-color:        #FFFFFF;  /* white text on header */
+  --md-accent-fg-color:         #6E6E6E;  /* mid-grey for links/highlights */
  
-  --md-default-bg-color:        #FAF6EF;  /* warm beige page background */
-  --md-default-fg-color:        #3E3A34;  /* soft dark brown body text */
-  --md-default-fg-color--light: #6B655C;
-  --md-default-fg-color--lighter: #A39C90;
+  --md-default-bg-color:        #FFFFFF;  /* white page background */
+  --md-default-fg-color:        #232323;  /* near-black body text */
+  --md-default-fg-color--light: #5C5C5C;
+  --md-default-fg-color--lighter: #9E9E9E;
  
-  --md-typeset-a-color:         #A8783F;  /* pastel amber-brown links */
-  --md-code-bg-color:           #F1EAE0;  /* light beige code block background */
-  --md-code-fg-color:           #4A4238;
+  --md-typeset-a-color:         #4A4A4A;  /* grey links */
+  --md-code-bg-color:           #F2F2F2;  /* light grey code block background */
+  --md-code-fg-color:           #333333;
 }
  
 /* ---- Dark mode (scheme: slate) ---- */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:        #6E5A45;  /* deeper warm beige/brown header */
-  --md-primary-fg-color--light: #8A7255;
-  --md-primary-fg-color--dark:  #564733;
-  --md-accent-fg-color:         #D8BE9A;  /* pastel highlight for dark mode */
+  --md-primary-fg-color:        #2E2E2E;  /* dark charcoal header */
+  --md-primary-fg-color--light: #4A4A4A;
+  --md-primary-fg-color--dark:  #1A1A1A;
+  --md-accent-fg-color:         #BDBDBD;  /* light grey highlight for dark mode */
  
-  --md-default-bg-color:        #2A2622;  /* warm charcoal-beige background */
-  --md-default-fg-color:        #EDE6DA;
-  --md-default-fg-color--light: #C9C0B2;
-  --md-default-fg-color--lighter: #948C7E;
+  --md-default-bg-color:        #181818;  /* near-black background */
+  --md-default-fg-color:        #E8E8E8;
+  --md-default-fg-color--light: #B8B8B8;
+  --md-default-fg-color--lighter: #808080;
  
-  --md-typeset-a-color:         #D8BE9A;
-  --md-code-bg-color:           #35302A;
-  --md-code-fg-color:           #EDE6DA;
+  --md-typeset-a-color:         #BDBDBD;
+  --md-code-bg-color:           #242424;
+  --md-code-fg-color:           #E8E8E8;
 }
  
-/* Soften card / admonition borders to match the pastel palette */
+/* Soften card / admonition borders to match the grey palette */
 .md-typeset .admonition,
 .md-typeset details {
-  border-color: #C9B393;
+  border-color: #D0D0D0;
+}
+
+.md-content__inner {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.md-main__inner {
+    margin-top: 0 !important;
+}
+
+.md-typeset h1:first-child {
+    display: none;
+}
+
+.hero {
+    margin-top: 0;
+    border-radius: 0;
+}
+
+.md-typeset h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.md-typeset h3 {
+    font-weight: 600;
+}
+
+.md-button {
+    background: #6B6B6B;
+    color: white !important;
+    border: none;
+    border-radius: 8px;
+
+    padding: .7rem 1.5rem;
+
+    transition: .25s;
+}
+
+.md-button:hover {
+    background: #4F4F4F;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.18);
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-buttons .md-button {
+    min-width: 180px;
+    text-align: center;
+    padding: .9rem 2rem;
+    font-size: 1rem;
+}
+
+.md-typeset h2#contact + p {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    min-width: 180px;
+    text-align: center;
+    padding: .9rem 2rem;
+    font-size: 1rem;
+}
+
+/* Global typography */
+.md-typeset {
+    font-size: 1.0rem;
+    line-height: 1.6;
 }
