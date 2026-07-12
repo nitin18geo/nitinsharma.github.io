@@ -42,8 +42,6 @@ all stacked and centered, followed by the cover + profile photo.
   <img src="assets/images/profile.png" alt="Nitin Sharma" class="profile-photo">
 </div>
 
-# { .visually-hidden }
-
 ## About Me
 
 I am a geospatial and policy analyst with sector experience in water management, climate risks, and agriculture. I have 3 years of total experience applying python and GIS skills in multiple projects- I have worked with Indian Institute of Technology, Delhi (Public policy) and International water management institute in consultant roles. I see my role as an anchor between technical skills and policy issues.
