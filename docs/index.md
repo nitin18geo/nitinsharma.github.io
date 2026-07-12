@@ -42,6 +42,8 @@ all stacked and centered, followed by the cover + profile photo.
   <img src="assets/images/profile.png" alt="Nitin Sharma" class="profile-photo">
 </div>
 
+# { .visually-hidden }
+
 ## About Me
 
 I am a geospatial and policy analyst with sector experience in water management, climate risks, and agriculture. I have 3 years of total experience applying python and GIS skills in multiple projects- I have worked with Indian Institute of Technology, Delhi (Public policy) and International water management institute in consultant roles. I see my role as an anchor between technical skills and policy issues.
@@ -59,7 +61,7 @@ A selection of my geospatial projects. Click any card to see the full write-up.
 <div class="project-card" markdown>
 ![](assets/images/Image1.png)
 
-**[StoryMaps: winner of ESRI India StoryMaps contest, 2022](projects/StoryMaps_contest.md)**
+**[StoryMaps contest winner, 2022](projects/StoryMaps_contest.md)**
 
 An ArcGIS StoryMap exploring the snow leopard — a mystical, elusive predator inhabiting the high-altitude regions of Northern and Central Asia across 12 countries — combining cartography, imagery, and narrative to raise awareness about the species and its habitat.
 
@@ -71,7 +73,7 @@ An ArcGIS StoryMap exploring the snow leopard — a mystical, elusive predator i
 <div class="project-card" markdown>
 ![](assets/images/image2.png)
 
-**[Digitization and Mapping of Phosphorous Pollutant Sources](projects/ASU_Internship.md)**
+**[Pollutant source mapping- USA](projects/ASU_Internship.md)**
 
 Digitized and mapped Animal Feeding Operations (AFOs) across two states in the US, combined data extraction from databases and ground-truthing using ArcGIS Pro and QGIS workflows.
 
@@ -83,7 +85,7 @@ Digitized and mapped Animal Feeding Operations (AFOs) across two states in the U
 <div class="project-card" markdown>
 ![](assets/images/bundelkhand_3.png)
 
-**[Effect of Rainfall Deficit on Surface Water Storage Changes](projects/Rainfall_dynamics.md)**
+**[Water storage analysis- Bundelkhand](projects/Rainfall_dynamics.md)**
 
 Assessed the impact of the 2023 monsoon rainfall deficit on surface water storage in the Ganga River Basin, building an integrated satellite-based framework in Google Earth Engine and establishing the first digital inventory of small water bodies in Bundelkhand, India.
 
