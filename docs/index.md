@@ -27,6 +27,8 @@ The default MkDocs Material header AND tabs row are fully hidden site-wide (see 
 all stacked and centered, followed by the cover + profile photo.
 -->
 
+# Nitin Sharma { .visually-hidden }
+
 <div class="site-topbar">
   <span class="site-topbar-name">Nitin Sharma</span>
   <span class="site-topbar-tagline">Turning spatial data into insights</span>
@@ -41,8 +43,6 @@ all stacked and centered, followed by the cover + profile photo.
 <div class="hero">
   <img src="assets/images/profile.png" alt="Nitin Sharma" class="profile-photo">
 </div>
-
-# { .visually-hidden }
 
 ## About Me
 
