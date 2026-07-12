@@ -42,4 +42,16 @@ Digitized and mapped Animal Feeding Operations (AFOs)- across two states in the 
 [View Project →](ASU_Internship.md){ .md-button }
 </div>
 
+<div class="project-card" markdown>
+![](../assets/images/bundelkhand_3.png)
+
+**[Effect of Rainfall Deficit on Surface Water Storage Changes](Rainfall_dynamics.md)**
+
+Assessed the impact of the 2023 monsoon rainfall deficit on surface water storage in the Ganga River Basin, building an integrated satellite-based framework in Google Earth Engine and establishing the first digital inventory of small water bodies in Bundelkhand, India.
+
+`Google Earth Engine` `GIS` `ArcGIS StoryMaps`
+
+[View Project →](Rainfall_dynamics.md){ .md-button }
+</div>
+
 </div>

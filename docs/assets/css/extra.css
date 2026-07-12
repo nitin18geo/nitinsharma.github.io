@@ -403,9 +403,9 @@ grid-template-columns:1fr;
     margin-top: 0 !important;
 }
 
-.md-typeset h1:first-child {
+/* .md-typeset h1:first-child {
     display: none;
-}
+} */
 
 .hero {
     margin-top: 0;
@@ -476,4 +476,15 @@ grid-template-columns:1fr;
 .md-typeset {
     font-size: 1.0rem;
     line-height: 1.6;
+}
+
+/* Widen the main content column (Material's default is ~61rem) */
+.md-grid {
+  max-width: 70rem; /* increase further, or use 100% for edge-to-edge */
+}
+
+/* If you don't use the left nav / right TOC sidebar (single-page portfolio style),
+   you can let content use the full grid width instead of leaving room for them */
+.md-content {
+  max-width: 100%;
 }
