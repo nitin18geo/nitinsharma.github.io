@@ -12,7 +12,7 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 
 # Ghost of the Mountains: In Search of the Elusive Snow Leopard
 
-![Project overview image](../assets/images/image1.png)
+![Project overview image](../assets/images/Image1.png)
 
 ## Overview
 
