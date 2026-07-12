@@ -403,9 +403,9 @@ grid-template-columns:1fr;
     margin-top: 0 !important;
 }
 
-/* .md-typeset h1:first-child {
+.md-typeset h1:first-child {
     display: none;
-} */
+}
 
 .hero {
     margin-top: 0;
@@ -487,15 +487,4 @@ grid-template-columns:1fr;
    you can let content use the full grid width instead of leaving room for them */
 .md-content {
   max-width: 100%;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-  padding: 0;
-  margin: -1px;
 }
