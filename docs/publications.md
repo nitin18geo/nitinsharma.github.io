@@ -34,7 +34,7 @@ CHECKLIST FOR THIS PAGE:
 
 ## Blogs
 
-1. Dhyey Bhatpuria, Nitin Sharma, Giriraj Amarnath and Alok Sikka (2023) *Effect of Rainfall Deficit on Surface Water Storage Changes*. CGIAR [Article](https://www.cgiar.org/news-events/news/effect-of-rainfall-deficit-on-surface-water-storage-changes#:~:text=Satellite%2Dbased%20precipitation%20data%20indicate,the%20severity%20of%20the%20situation.) — StoryMap [StoryMap](https://storymaps.arcgis.com/stories/4673926985b74fd58dc70b1794a3fe1a) 
+1.git Dhyey Bhatpuria, Nitin Sharma, Giriraj Amarnath and Alok Sikka (2023) *Effect of Rainfall Deficit on Surface Water Storage Changes*. CGIAR [Article](https://www.cgiar.org/news-events/news/effect-of-rainfall-deficit-on-surface-water-storage-changes#:~:text=Satellite%2Dbased%20precipitation%20data%20indicate,the%20severity%20of%20the%20situation.) — StoryMap [StoryMap](https://storymaps.arcgis.com/stories/4673926985b74fd58dc70b1794a3fe1a) 
 
 ---
 

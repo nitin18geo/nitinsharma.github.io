@@ -12,8 +12,6 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 
 # Ghost of the Mountains: In Search of the Elusive Snow Leopard
 
-![Project overview image](../assets/images/Image1.png)
-
 ## Overview
 
 An ArcGIS StoryMap exploring the snow leopard — a mystical, elusive predator inhabiting the high-altitude regions of Northern and Central Asia across 12 countries — combining cartography, imagery, and narrative to raise awareness about the species and its habitat. 
@@ -24,6 +22,10 @@ Tools used:
 
     1. ArcGIS online
     2. ArcGIS StoryMaps
+
+## StoryMap (interactive)
+
+<iframe src="https://storymaps.arcgis.com/stories/610412ba414e4a27b826284994a1f5e5?embed" width="100%" height="700" frameborder="0" allowfullscreen allow="geolocation"></iframe>
 
 ## Links
 
