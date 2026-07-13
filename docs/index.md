@@ -71,7 +71,7 @@ An ArcGIS StoryMap exploring the snow leopard — a mystical, elusive predator i
 </div>
 
 <div class="project-card" markdown>
-![](assets/images/image2.png)
+![](assets/images/ASU_2.png)
 
 **[Pollutant source mapping- USA](projects/ASU_Internship.md)**
 

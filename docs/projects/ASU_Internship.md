@@ -12,8 +12,6 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 
 # Digitization and mapping of phosphorous pollutant sources in a landscape
 
-![Project overview image](../assets/images/image2.png)
-
 ## Overview
 
 Digitized and mapped phosphorous pollutant sources — Animal Feeding Operations (AFOs) — across the United States by ground-truthing existing datasets and generating a non-AFO comparison dataset, then analyzed their spatial patterns and land-cover classification to assess environmental and regulatory data gaps.
@@ -48,6 +46,13 @@ Digitized and mapped phosphorous pollutant sources — Animal Feeding Operations
 | QGIS | Ground-truthing and shapefile creation for AFO points |
 | ArcGIS | AFO locations based L-Moran's I analysis |
 | Python | Data export, merging, and processing of non-AFO industry data |
+
+---
+## Selected visuals
+### Map of South Carolina & LULC:
+![Project overview image](../assets/images/ASU_1.png)
+### Nearest neighbour analysis for determining concentration of AFOs in watersheds of South Carolina:
+![Project overview image](../assets/images/ASU_2.png)
 
 ---
 ## Key Findings
