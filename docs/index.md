@@ -6,13 +6,11 @@ hide:
 ---
 <!--
 CHECKLIST FOR THIS PAGE:
-- [ ] Replace [YOUR NAME] with your full name (3 places)
-- [ ] Replace [YOUR JOB TITLE] with your current or target role
+- [ ] Replace [YOUR NAME] with your full name (2 places)
+- [ ] Replace the eyebrow tag text with your own focus areas
 - [ ] Replace [YOUR TAGLINE] with a short phrase describing your focus
 - [ ] Rewrite the About Me paragraph with your own words
 - [ ] Replace assets/images/profile.png with your actual photo (keep the filename or update it below)
-- [ ] Add a wide cover/banner image to assets/images/cover.png (roughly 1200x300px works well)
-- [ ] Replace assets/images/about.png with your own image (a field photo, map, or workspace shot)
 - [ ] Replace the two placeholder project cards with your real projects
 - [ ] For each project: add a thumbnail image to docs/assets/images/ and update the path below
 - [ ] For each project: create a project detail page by copying sample-project.md
@@ -23,32 +21,46 @@ CHECKLIST FOR THIS PAGE:
 NOTE ON THE TOP BAR:
 The default MkDocs Material header AND tabs row are fully hidden site-wide (see .md-header,
 .md-tabs in extra.css), so the page starts flush at the top with no reserved empty space.
-.site-topbar below is the only header: name, tagline, then the Projects/Skills/Contact nav,
-all stacked and centered, followed by the cover + profile photo.
+.top-bar is a single slim cream strip: initials avatar + name on the left, in-page nav
+(About / Projects / Skills / Contact / CV) inline on the right, with the current section
+styled as a pill. It's sticky, so it stays visible while scrolling.
 -->
 
 # Nitin Sharma { .visually-hidden }
 
-<div class="site-topbar">
-  <span class="site-topbar-name">Nitin Sharma</span>
-  <span class="site-topbar-tagline">Turning spatial data into insights</span>
-  <nav class="home-nav">
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-    <a href="assets/Nitin_CV.pdf" >CV</a>
-  </nav>
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <div class="top-bar-left">
+      <span class="avatar-initials">NS</span>
+      <span class="top-bar-name">Nitin Sharma</span>
+    </div>
+    <nav class="top-bar-nav">
+      <a href="#about" class="nav-pill">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="assets/Nitin_CV.pdf">CV</a>
+    </nav>
+  </div>
 </div>
 
-<div class="hero">
-  <img src="assets/images/profile.png" alt="Nitin Sharma" class="profile-photo">
+<div class="about-section" id="about" markdown>
+
+<div class="about-image" markdown>
+![Nitin Sharma](assets/images/profile.png)
 </div>
+
+<div class="about-text" markdown>
 
 ## About Me
 
 I am a geospatial and policy analyst with sector experience in water management, climate risks, and agriculture. I have 3 years of total experience applying python and GIS skills in multiple projects- I have worked with Indian Institute of Technology, Delhi (Public policy) and International water management institute in consultant roles. I see my role as an anchor between technical skills and policy issues.
 
 I am currently seeking opportunities in research roles and PhD positions with focus on applying geospatial analysis to water-climate-agriculture domains.
+
+</div>
+
+</div>
 
 ---
 
@@ -104,7 +116,6 @@ Assessed the impact of the 2023 monsoon rainfall deficit on surface water storag
 
 <div class="skill-card" markdown>
 
-
 **GIS & Remote Sensing**
 
 <div class="skill-item" markdown>
@@ -123,7 +134,6 @@ Assessed the impact of the 2023 monsoon rainfall deficit on surface water storag
 
 <div class="skill-card" markdown>
 
-
 **Programming**
 
 <div class="skill-item" markdown>
@@ -134,14 +144,9 @@ Assessed the impact of the 2023 monsoon rainfall deficit on surface water storag
 :material-database:{ .lg } PostgreSQL + PostGIS
 </div>
 
-<div class="skill-item" markdown>
-:material-code-braces:{ .lg } GeoPandas, Rasterio, NumPy
-</div>
-
 </div>
 
 <div class="skill-card" markdown>
-
 
 **Machine Learning & GeoAI**
 
