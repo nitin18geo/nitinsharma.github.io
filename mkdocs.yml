@@ -1,6 +1,6 @@
 # ============================================================
 # PORTFOLIO CONFIGURATION
-# This file is in the YAML format and is very sensitive to 
+# This file is in the YAML format and is very sensitive to
 # spaces. Ensure to match the indentation level and spacing
 # of new items with existing ones
 
@@ -69,7 +69,6 @@ extra:
       link: https://linkedin.com/in/nitingeology
     - icon: material/email
       link: mailto:nitin18geo@gmail.com
-
 
 plugins:
   - search
