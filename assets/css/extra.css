@@ -162,6 +162,9 @@ h2[id],
 
 .about-text {
   flex: 1;
+  background-color: var(--site-cream-dark);
+  border: 1px solid var(--site-border);
+  padding: 1.75rem 2rem;
 }
 
 .about-text h2 {
@@ -239,7 +242,7 @@ h2[id],
   border: 1px solid var(--site-border);
   border-radius: 0;
   padding: 1.1rem;
-  background-color: var(--site-cream-dark);
+  background-color: #FFFFFF;
   cursor: pointer;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
@@ -281,7 +284,7 @@ h2[id],
 }
 
 .skill-card {
-    background: var(--site-cream-dark);
+    background: #FFFFFF;
     border: 1px solid var(--site-border);
     border-radius: 0;
     padding: 1.4rem;
@@ -393,6 +396,11 @@ grid-template-columns:1fr;
 }
 
 body,
+.md-typeset {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+body,
 .md-container {
   background-color: var(--site-cream);
 }
@@ -479,7 +487,7 @@ body,
 
 /* Widen the main content column (Material's default is ~61rem) */
 .md-grid {
-  max-width: 70rem; /* increase further, or use 100% for edge-to-edge */
+  max-width: 60rem; /* increase further, or use 100% for edge-to-edge */
 }
 
 /* If you don't use the left nav / right TOC sidebar (single-page portfolio style),
