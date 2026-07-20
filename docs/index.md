@@ -75,8 +75,6 @@ A selection of my geospatial projects. Click any card to see the full write-up.
 
 **[StoryMaps contest winner, 2022](projects/StoryMaps_contest.md)**
 
-An ArcGIS StoryMap exploring the snow leopard — a mystical, elusive predator inhabiting the high-altitude regions of Northern and Central Asia across 12 countries — combining cartography, imagery, and narrative to raise awareness about the species and its habitat.
-
 `ArcGIS StoryMaps` `ArcGIS Online`
 
 [View Project →](projects/StoryMaps_contest.md){ .md-button }
@@ -87,8 +85,6 @@ An ArcGIS StoryMap exploring the snow leopard — a mystical, elusive predator i
 
 **[Pollutant source mapping- USA](projects/ASU_Internship.md)**
 
-Digitized and mapped Animal Feeding Operations (AFOs) across two states in the US, combined data extraction from databases and ground-truthing using ArcGIS Pro and QGIS workflows.
-
 `QGIS` `ArcGIS` `Python` `ArcPy`
 
 [View Project →](projects/ASU_Internship.md){ .md-button }
@@ -98,8 +94,6 @@ Digitized and mapped Animal Feeding Operations (AFOs) across two states in the U
 ![](assets/images/bundelkhand_3.png)
 
 **[Water storage analysis- Bundelkhand](projects/Rainfall_dynamics.md)**
-
-Assessed the impact of the 2023 monsoon rainfall deficit on surface water storage in the Ganga River Basin, building an integrated satellite-based framework in Google Earth Engine and establishing the first digital inventory of small water bodies in Bundelkhand, India.
 
 `Google Earth Engine` `GIS` `ArcGIS StoryMaps`
 
